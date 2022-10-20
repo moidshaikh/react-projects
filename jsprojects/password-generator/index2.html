@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+
+  </style>
+  <script type="text/javascript">
+  var slider = document.getElementById("range");
+  var output = document.getElementById("value");
+  
+  function update(){
+  	output.innerHTML = slider.value;
+    console.log(slider.value);
+    }
+
+  slider.addEventListener('input', update());
+  update();
+  </script>
+
+</head>
+<body>
+
+<input type="range" min="1" max="128" value="50" class="slider" id="range">
+Value: 
+<span id="value"></span>
+
+
+</body>
+</html>

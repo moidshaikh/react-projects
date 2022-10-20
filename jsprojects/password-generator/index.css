@@ -1,0 +1,39 @@
+body {
+    margin: 30px;
+    background-color: #17293A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+h1{
+    color: aliceblue;
+}
+h1 #rp{
+    color: #2BDB73;
+}
+p span{
+    color: #2BDB73;
+}
+
+button.passwordbtn{
+    background-color: #324663;
+    color: #2BDB73;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 2px;
+}
+button.generatebtn{
+    background-color: #2BDB73;
+    border: none;
+    border-radius: 2px;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    margin: 10px auto;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+}

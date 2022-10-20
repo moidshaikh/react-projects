@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a <br /><div id="rp">random password</div></h1>
+        <h4>Never use an insecure password again.</h4>
+        
+        <div class="passwordDiv">
+
+            <div class="slideContainer">
+                  <input type="range" min="0" max="64" value="15"   class="slider" id="myRange">
+                  <p>Password Length: <span id="value"></span></p>
+              </div>
+          </div>
+        <button class="generatebtn" onclick="generatePassword()">Generate password</button>
+        
+        <hr>
+        <button id="p1" class="passwordbtn" ></button>
+        <button id="p2" class="passwordbtn" ></button>
+        
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="index.js"></script>
+        
+    </body>
+</html>
